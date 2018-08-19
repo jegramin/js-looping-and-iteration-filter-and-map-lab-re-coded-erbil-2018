@@ -23,8 +23,10 @@ function exactMatch(drivers,obj){
   })
 }
 
-function exactMatchToList(){
-  
+function exactMatchToList(drivers,obj){
+  exactMatch().map(function(driver){
+    return driver.name;
+  })
 }
 
 
