@@ -15,7 +15,7 @@ function driverNamesWithRevenueOver(drivers,revenue){
 
 function exactMatch(drivers,key){
   return drivers.filter(function(driver){
-    if(drivers.name === key[value]){
+    if(drivers.name === key){
       return driver;
     }
   })
